@@ -1,0 +1,13 @@
+kendaraan = ["mclaren540c","mobil","2.993cc","merah","4roda"]
+print("list awal: ")
+print(kendaraan)
+
+#menambahkan harga dan tipe kendaraan di belakang
+kendaraan.append("4,5 Miliar")
+kendaraan.append("540c")
+
+#menambahkan merek kendaraan
+kendaraan.insert(2, "mclaren")
+
+print("\nlist kendaraan setelah ditambahkan")
+print("kendaraan")
